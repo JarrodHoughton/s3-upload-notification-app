@@ -44,7 +44,7 @@ export default () => {
 
   return (
     <div>
-      {/* Top Navigation Component */}
+      {/* Top Navigation Component  */}
       <TopNavigation
         identity={
           {
