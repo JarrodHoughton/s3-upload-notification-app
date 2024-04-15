@@ -16,7 +16,6 @@ AWS.config.update({
 const sns = new AWS.SNS()
 const topicArn = process.env.REACT_APP_TOPIC_ARN;
 function Uploadpage() {
-  const [value, setValue] = useState([]);
   const [inputValue1, setInputValue1] = useState("");
 
   const navigate = useNavigate();

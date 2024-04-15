@@ -17,7 +17,7 @@ AWS.config.update({
 
 const dynamodb = new AWS.DynamoDB();
 
-export default Dashboard = () => {
+var Dashboard = () => {
   const [selectedItems, setSelectedItems] = React.useState([{ name: "Item 2" }]);
   const [items, setItems] = useState([]);
   const navigate = useNavigate();
@@ -164,3 +164,5 @@ export default Dashboard = () => {
     </div>
   );
 };
+
+export default Dashboard
