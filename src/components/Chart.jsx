@@ -4,7 +4,7 @@ import Box from "@cloudscape-design/components/box";
 import Button from "@cloudscape-design/components/button";
 import { Link } from "react-router-dom";
 
-export default ({data}) => {
+export default Chart = ({data}) => {
     function parseTimestamp(timestampStr) {
         return new Date(timestampStr);
     }

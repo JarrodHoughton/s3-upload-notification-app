@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import FileUpload from "@cloudscape-design/components/file-upload";
 import FormField from "@cloudscape-design/components/form-field";
 import Button from "@cloudscape-design/components/button";
-import Input from "@cloudscape-design/components/input";
 import AWS from 'aws-sdk';
 import TopNavigation from "@cloudscape-design/components/top-navigation";
 import {useNavigate } from "react-router-dom";
